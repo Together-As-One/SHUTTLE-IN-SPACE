@@ -80,7 +80,7 @@ while (count>0):
     baddieAddCounter = 0
     pygame.mixer.music.play(-1, 0.0)
     while True: 
-        score += 2
+        score += 1
         for event in pygame.event.get():
             
             if event.type == QUIT:
